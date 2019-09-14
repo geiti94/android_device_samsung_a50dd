@@ -1,7 +1,7 @@
 /modem		emmc	/dev/block/platform/13520000.ufs/by-name/radio	flags=backup=1;display="Modem Firmware"
 /boot           emmc    /dev/block/platform/13520000.ufs/by-name/boot
 /cache          ext4	/dev/block/platform/13520000.ufs/by-name/cache  	flags=backup=1;display="Cache"
-/data           f2fs	/dev/block/platform/13520000.ufs/by-name/userdata
+/data           ext4	/dev/block/platform/13520000.ufs/by-name/userdata
 /efs		ext4	/dev/block/platform/13520000.ufs/by-name/efs	flags=backup=1;display="EFS"
 /product	ext4	/dev/block/platform/13520000.ufs/by-name/product flags=backup=1;display="Product"
 /product_image	emmc	/dev/block/platform/13520000.ufs/by-name/product flags=backup=1;flashimg;display="Product Image (CSC)"
