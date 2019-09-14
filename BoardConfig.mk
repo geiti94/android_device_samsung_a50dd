@@ -45,8 +45,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Crypto
 #TARGET_HW_DISK_ENCRYPTION := true
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
+#TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_FBE := true
 
 # TWRP specific build flags
 RECOVERY_VARIANT := twrp
